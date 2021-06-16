@@ -8,3 +8,9 @@
 
 
 //Call your area function, then use a template literal to print, “The area is ____ cm^2.”
+
+function calculateArea(length = width, width = length){
+  return length*width;
+}
+
+console.log(`The area is ${calculateArea(3)}cm^2`);
